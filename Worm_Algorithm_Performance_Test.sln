@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Worm_Algorithm_Performance_Test", "Worm_Algorithm_Performance_Test.vcxproj", "{2ECA7FB8-1B4C-4302-A160-6098A532D1BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C} = {46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}
+	EndProjectSection
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "Worm_Algorithm_Performance_Test_Fortran", "..\Worm_Algorithm_Performance_Test_Fortran\Worm_Algorithm_Performance_Test_Fortran.vfproj", "{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Worm7Vertex_CUDA", "..\Worm7Vertex_CUDA\Worm7Vertex_CUDA.vcxproj", "{B3A82BF8-2FAE-7BCA-249D-5A25F90CAAA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ECA7FB8-1B4C-4302-A160-6098A532D1BA}.Debug|x64.ActiveCfg = Debug|x64
+		{2ECA7FB8-1B4C-4302-A160-6098A532D1BA}.Debug|x64.Build.0 = Debug|x64
+		{2ECA7FB8-1B4C-4302-A160-6098A532D1BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{2ECA7FB8-1B4C-4302-A160-6098A532D1BA}.Debug|x86.Build.0 = Debug|Win32
+		{2ECA7FB8-1B4C-4302-A160-6098A532D1BA}.Release|x64.ActiveCfg = Release|x64
+		{2ECA7FB8-1B4C-4302-A160-6098A532D1BA}.Release|x64.Build.0 = Release|x64
+		{2ECA7FB8-1B4C-4302-A160-6098A532D1BA}.Release|x86.ActiveCfg = Release|Win32
+		{2ECA7FB8-1B4C-4302-A160-6098A532D1BA}.Release|x86.Build.0 = Release|Win32
+		{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}.Debug|x64.ActiveCfg = Debug|x64
+		{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}.Debug|x64.Build.0 = Debug|x64
+		{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}.Debug|x86.Build.0 = Debug|Win32
+		{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}.Release|x64.ActiveCfg = Release|x64
+		{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}.Release|x64.Build.0 = Release|x64
+		{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}.Release|x86.ActiveCfg = Release|Win32
+		{46E8D56E-7CE7-4A0B-BA6A-8303D6C85C2C}.Release|x86.Build.0 = Release|Win32
+		{B3A82BF8-2FAE-7BCA-249D-5A25F90CAAA8}.Debug|x64.ActiveCfg = Debug|x64
+		{B3A82BF8-2FAE-7BCA-249D-5A25F90CAAA8}.Debug|x64.Build.0 = Debug|x64
+		{B3A82BF8-2FAE-7BCA-249D-5A25F90CAAA8}.Debug|x86.ActiveCfg = Debug|x64
+		{B3A82BF8-2FAE-7BCA-249D-5A25F90CAAA8}.Debug|x86.Build.0 = Debug|x64
+		{B3A82BF8-2FAE-7BCA-249D-5A25F90CAAA8}.Release|x64.ActiveCfg = Release|x64
+		{B3A82BF8-2FAE-7BCA-249D-5A25F90CAAA8}.Release|x64.Build.0 = Release|x64
+		{B3A82BF8-2FAE-7BCA-249D-5A25F90CAAA8}.Release|x86.ActiveCfg = Release|x64
+		{B3A82BF8-2FAE-7BCA-249D-5A25F90CAAA8}.Release|x86.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBB92E7D-3F7A-47FA-B152-78ABB230D248}
+	EndGlobalSection
+EndGlobal
